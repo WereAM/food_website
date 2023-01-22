@@ -1,0 +1,17 @@
+table{
+	border-collapse: collapse;
+	width: 100%;
+	color: black;
+	font-size: 20px;
+	text-align: left;
+}
+th{
+	background-color: green;
+	color: black;
+}
+tr:nth-child(even){
+	background-color: gray;
+}
+tr:hover{
+	background-color: papayawhip;
+}

@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+}
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../Images/cereals.jfif);
+	height: 100vh;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.main{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	height: auto;
+}
+.form-page{
+	background: green;
+	width: 500px;
+	max-width: 90%;
+	padding: 35px auto;
+	opacity: 0.6;
+	border-radius: 10px;
+}
+.logo{
+	display: block;
+	width: 100px;
+	margin: 0px auto;
+	border-radius: 20px;
+	background: gray;
+	padding: 10px;
+}
+.form-page h2{
+	color: black;
+	padding: 10px;
+	text-align: center;
+	font-size: 30px;
+}
+.form .elements{
+	width: 90%;
+	margin: 20px auto;
+	padding: 10px;
+	position: relative;
+}
+.elements input{
+	width: 100%;
+	padding: 10px;
+	background: gray;
+	border: none;
+	outline: none;
+	color: white;
+	font-size: 15px;
+	border-bottom: 2px solid;
+	border-radius: 5px;
+}
+.elements button{
+	width: 100%;
+	padding: 10px;
+	background: black;
+	color: white;
+	font-size: 20px;
+	border: 2px solid;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.elements input:focus{
+	background: grey;
+	border-color: blue;
+}
+.elements button:hover{
+	background: grey;
+}
+.elements a{
+	color: white;
+	text-decoration: blink;
+	font-size: 15px;
+}
+.elements a:hover{
+	color: black;
+}
+.elements .register{
+	float: right;
+}

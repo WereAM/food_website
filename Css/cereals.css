@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../Images/cereals.jfif);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: whitesmoke;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+ul li.active a{
+	background-color: white;
+	color: black;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: 80px;
+}
+.one{
+	max-width: 1300px;
+	margin: auto;
+}
+nav{
+	width: 100%;
+	height: 80px;
+	background-color: forestgreen;
+}
+.title{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.title h1{
+	color: white;
+	font-size: 50px;
+}
+.title h3{
+	color: white;
+	font-size: 30px;
+}
+.title p{
+	color:  wheat;
+	font-size: 30px;
+}
+.buttons{
+	position: absolute;
+	top: 80%;
+	left: 30%;
+	/*transform: translate(-50%, -50%);*/
+}
+.btn{
+	border: 2px solid black;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: blink;
+}
+.btn:hover{
+	background-color: white;
+	color: black;
+}
+main{
+	width: 100%;
+	height: 220vh;
+	background-color: forestgreen;
+	background-size: cover;
+	background-position: center;
+}
+.features{
+	width: 1250px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.feature{
+	position: relative;
+	width: 290px;
+	background: whitesmoke;
+	padding: 100px, 40px, 60px;
+}
+.feature img{
+	position: relative;
+	width: 280px;
+}
+section{
+	position: relative;
+	width: 1250px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 20px;
+}
+.testimonial{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 320px;
+	height: 420px;
+	margin: 20px;
+	background: gray;
+}
+.testimonial .trust{
+	padding: 30px;
+	text-align: center;
+}
+.trust p{
+	color: white;
+	padding: 20px;
+}
+.trust .user{
+	max-width: 100px;
+	border-radius: 50%;
+}
+.footer{
+	width: 80%;
+	height: 40vh;
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+.footer1, .footer2, .footer3{
+	display: flex;
+	flex-direction: column;
+	margin-right: 64px;
+}
+.footer h2{
+	margin bottom: 32px;
+}
+.footer a{
+	color: white;
+	text-decoration: none;
+	margin-bottom: 8px;
+}
+.footer a:hover{
+	color: purple;
+	transition: 0.3 ease-out;
+}
+.benefits p{
+	column-count: 2;
+	column-gap: 50 px;
+	column-rule-style: none;
+}
+.benefits h1{
+	column-span: all;
+}
